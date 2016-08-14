@@ -1,0 +1,84 @@
+
+
+
+
+
+
+
+
+.main-container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+
+.wrapper {
+    text-align: center;
+}
+
+
+
+
+#input_text {
+  position: left;
+
+}
+
+
+
+
+#butt {
+    position: left;
+
+}
+
+
+
+ body {
+
+ background-image:url("../css/images/dothraki_horse.jpg");
+ background-repeat: no-repeat;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size:  cover;
+
+}
+
+#past_searches {
+font-size: 2em;
+color: gray;
+}
+
+
+
+
+
+fieldset {
+  background-color: #7d4d3c;
+
+
+}
+
+.well {
+background: #805445
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.center-block { position: absolute;
+    bottom: 50px;
+    right:  370px;
+    margin-bottom: -50px;
+
+     }
+
+
+.alert {
+  background-color:#402c24
+  border-color: #000000;
+}
