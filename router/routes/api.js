@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const dotenv = require('dotenv').config();
 var request = require('request');
 var pry = require('pryjs')
 
