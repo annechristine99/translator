@@ -34,7 +34,7 @@ when the API itself is not.
 2. Saving infomation from the API so the user can have control on what they want to save 
 from the results when they use the translator. 
 
-3. To make the app even more user-friendly, a new API needs to be built for Dothraki words
+3. To make the app even more user-friendly, a new API should be built for Dothraki words
 to be translated back into English. 
 
 

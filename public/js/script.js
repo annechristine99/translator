@@ -2,18 +2,20 @@ $(function(){
   $('#butt').on('click',function(e){
     var original_text = $('#input_text').val()
     original_text = original_text.replace(' ','+')
-    var url = "http://api.funtranslations.com/translate/dothraki.json?api_key="+API_KEY+"&text="+original_text
+    var url = "/api/doTranslate"
     console.log('requesting: '+url)
     $.ajax({
       url:url,
-      method:"GET",
+      method:"POST",
+      data: {data:original_text},
       success:function(data){
-        var translated = data.contents.translated
-        var text = data.contents.text
+
+        // var translated = data.contents.translated
+        // var text = data.contents.text
 
         //insert into database as string
 
-        appendToDom(translated)
+        // appendToDom(translated)
 
 
 
