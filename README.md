@@ -37,5 +37,14 @@ from the results when they use the translator.
 3. To make the app even more user-friendly, a new API should be built for Dothraki words
 to be translated back into English. 
 
+Planning stages: 
+http://imgur.com/qNHMEnO
 
+http://imgur.com/e9h6JJg
+
+http://imgur.com/Hi9UjRI
+
+http://imgur.com/JJri1z1
+
+http://imgur.com/1JCzFPe
 
