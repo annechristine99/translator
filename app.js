@@ -22,7 +22,7 @@ app.use(session({
 app.use(flash());
 
 app.listen(3000, function () {
-  console.log('Auth Demo App Online!');
+  console.log('Translator Demo App Online!');
 });
 
 app.use(function(err, req, res, next){
