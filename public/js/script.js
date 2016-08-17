@@ -6,7 +6,7 @@ $(function(){
     console.log('requesting: '+url)
     $.ajax({
       url:url,
-      method:"POST",
+      method:"GET",
       data: {data:original_text},
       success:function(data){
 
