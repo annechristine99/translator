@@ -4,7 +4,7 @@ const dotenv = require('dotenv').config();
 var request = require('request');
 var pry = require('pryjs')
 
-router.post('/doTranslate', function (req, res){
+router.get('/doTranslate', function (req, res){
   var original_text = req.body.data
   var API_KEY = process.env.API_KEY
   var url = "http://api.funtranslations.com/translate/dothraki.json?api_key="+API_KEY+"&text="+original_text
