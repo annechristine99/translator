@@ -1,5 +1,6 @@
+var psqlDB = process.env.DATABASE_URL || 'postgres://admin@localhost:5432/translator';
 const pgp = require('pg-promise')();
-const db = pgp('postgres://admin@localhost:5432/translator');
+const db = pgp(psqlDB);
 
 const bcrypt = require('bcrypt');
 const salt = bcrypt.genSalt(10);
